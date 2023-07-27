@@ -1,0 +1,6 @@
+framework module Pods_Refurbs {
+  umbrella header "Pods-Refurbs-umbrella.h"
+
+  export *
+  module * { export * }
+}

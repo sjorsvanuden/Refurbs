@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022DA1952A7246EF00617CF3 /* AddNotifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DA1942A7246EF00617CF3 /* AddNotifyView.swift */; };
+		022DA1972A724A7300617CF3 /* NotifyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DA1962A724A7300617CF3 /* NotifyListView.swift */; };
+		022DA19B2A72557B00617CF3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DA19A2A72557B00617CF3 /* Item.swift */; };
+		022DA19D2A72563700617CF3 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DA19C2A72563700617CF3 /* ItemStore.swift */; };
+		022DA19F2A7260CD00617CF3 /* NotifyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DA19E2A7260CD00617CF3 /* NotifyDetailView.swift */; };
+		022DA1A12A72921800617CF3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DA1A02A72921800617CF3 /* WelcomeView.swift */; };
+		022DA1A32A7293DC00617CF3 /* shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = 022DA1A22A7293DC00617CF3 /* shopping.png */; };
+		022DA1AC2A72970A00617CF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022DA1AB2A72970A00617CF3 /* Images.xcassets */; };
+		02604AE32A4C24FD0028AD4C /* RefurbsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02604AE22A4C24FD0028AD4C /* RefurbsApp.swift */; };
+		02604AE52A4C24FD0028AD4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02604AE42A4C24FD0028AD4C /* ContentView.swift */; };
+		02604AF12A4C25280028AD4C /* RefurbFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02604AF02A4C25280028AD4C /* RefurbFetcher.swift */; };
+		02C57B2B2A6C2F6100D2C57E /* RefurbProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C57B2A2A6C2F6100D2C57E /* RefurbProducts.swift */; };
+		02C57B2F2A6C379900D2C57E /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C57B2E2A6C379900D2C57E /* FilterView.swift */; };
+		02C57B312A6C5A2E00D2C57E /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C57B302A6C5A2E00D2C57E /* ProductDetailView.swift */; };
+		02C57B332A6C5D6E00D2C57E /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C57B322A6C5D6E00D2C57E /* ProductRow.swift */; };
+		02C57B352A6C618300D2C57E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C57B342A6C618300D2C57E /* MainView.swift */; };
+		02C57B372A6D1BB100D2C57E /* ProductDetailSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C57B362A6D1BB100D2C57E /* ProductDetailSpecs.swift */; };
+		02C57B3F2A6D4C3200D2C57E /* sunrise.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 02C57B3E2A6D4C3200D2C57E /* sunrise.jpeg */; };
+		7B0A8BF165772358EC8E1EAE /* Pods_Refurbs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1367EE85FA0DA9FC4FA0E3 /* Pods_Refurbs.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		022DA1942A7246EF00617CF3 /* AddNotifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotifyView.swift; sourceTree = "<group>"; };
+		022DA1962A724A7300617CF3 /* NotifyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyListView.swift; sourceTree = "<group>"; };
+		022DA19A2A72557B00617CF3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		022DA19C2A72563700617CF3 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		022DA19E2A7260CD00617CF3 /* NotifyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyDetailView.swift; sourceTree = "<group>"; };
+		022DA1A02A72921800617CF3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		022DA1A22A7293DC00617CF3 /* shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping.png; sourceTree = "<group>"; };
+		022DA1AB2A72970A00617CF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02604ADF2A4C24FD0028AD4C /* Refurbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Refurbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02604AE22A4C24FD0028AD4C /* RefurbsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefurbsApp.swift; sourceTree = "<group>"; };
+		02604AE42A4C24FD0028AD4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02604AF02A4C25280028AD4C /* RefurbFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefurbFetcher.swift; sourceTree = "<group>"; };
+		02C57B2A2A6C2F6100D2C57E /* RefurbProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefurbProducts.swift; sourceTree = "<group>"; };
+		02C57B2E2A6C379900D2C57E /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		02C57B302A6C5A2E00D2C57E /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		02C57B322A6C5D6E00D2C57E /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		02C57B342A6C618300D2C57E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		02C57B362A6D1BB100D2C57E /* ProductDetailSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailSpecs.swift; sourceTree = "<group>"; };
+		02C57B3E2A6D4C3200D2C57E /* sunrise.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunrise.jpeg; sourceTree = "<group>"; };
+		3C1367EE85FA0DA9FC4FA0E3 /* Pods_Refurbs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Refurbs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		598E5D93CC87E470A8494E76 /* Pods-Refurbs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refurbs.debug.xcconfig"; path = "Target Support Files/Pods-Refurbs/Pods-Refurbs.debug.xcconfig"; sourceTree = "<group>"; };
+		8084393DB3F20435997D5B2E /* Pods-Refurbs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refurbs.release.xcconfig"; path = "Target Support Files/Pods-Refurbs/Pods-Refurbs.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02604ADC2A4C24FD0028AD4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0A8BF165772358EC8E1EAE /* Pods_Refurbs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022DA1AA2A7296B700617CF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02604AD62A4C24FD0028AD4C = {
+			isa = PBXGroup;
+			children = (
+				02604AE12A4C24FD0028AD4C /* Refurbs */,
+				02604AE02A4C24FD0028AD4C /* Products */,
+				3622564C41FBA66354A0D2A6 /* Pods */,
+				E48F8445DE59C5D0DC6D34D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02604AE02A4C24FD0028AD4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02604ADF2A4C24FD0028AD4C /* Refurbs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02604AE12A4C24FD0028AD4C /* Refurbs */ = {
+			isa = PBXGroup;
+			children = (
+				022DA1AB2A72970A00617CF3 /* Images.xcassets */,
+				022DA1AA2A7296B700617CF3 /* Preview Content */,
+				02C57B2D2A6C30CC00D2C57E /* View */,
+				02C57B2C2A6C30C700D2C57E /* ViewModels */,
+				0261695B2A5C4B7400AFAED3 /* Model */,
+				02604AE22A4C24FD0028AD4C /* RefurbsApp.swift */,
+				02C57B3E2A6D4C3200D2C57E /* sunrise.jpeg */,
+				022DA1A22A7293DC00617CF3 /* shopping.png */,
+			);
+			path = Refurbs;
+			sourceTree = "<group>";
+		};
+		0261695B2A5C4B7400AFAED3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02C57B2A2A6C2F6100D2C57E /* RefurbProducts.swift */,
+				022DA19A2A72557B00617CF3 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02C57B2C2A6C30C700D2C57E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				022DA19C2A72563700617CF3 /* ItemStore.swift */,
+				02604AF02A4C25280028AD4C /* RefurbFetcher.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		02C57B2D2A6C30CC00D2C57E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02604AE42A4C24FD0028AD4C /* ContentView.swift */,
+				02C57B2E2A6C379900D2C57E /* FilterView.swift */,
+				02C57B302A6C5A2E00D2C57E /* ProductDetailView.swift */,
+				022DA19E2A7260CD00617CF3 /* NotifyDetailView.swift */,
+				02C57B322A6C5D6E00D2C57E /* ProductRow.swift */,
+				02C57B342A6C618300D2C57E /* MainView.swift */,
+				02C57B362A6D1BB100D2C57E /* ProductDetailSpecs.swift */,
+				022DA1942A7246EF00617CF3 /* AddNotifyView.swift */,
+				022DA1962A724A7300617CF3 /* NotifyListView.swift */,
+				022DA1A02A72921800617CF3 /* WelcomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3622564C41FBA66354A0D2A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				598E5D93CC87E470A8494E76 /* Pods-Refurbs.debug.xcconfig */,
+				8084393DB3F20435997D5B2E /* Pods-Refurbs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E48F8445DE59C5D0DC6D34D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C1367EE85FA0DA9FC4FA0E3 /* Pods_Refurbs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02604ADE2A4C24FD0028AD4C /* Refurbs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02604AED2A4C24FE0028AD4C /* Build configuration list for PBXNativeTarget "Refurbs" */;
+			buildPhases = (
+				8A5716BC0D79921824637010 /* [CP] Check Pods Manifest.lock */,
+				02604ADB2A4C24FD0028AD4C /* Sources */,
+				02604ADC2A4C24FD0028AD4C /* Frameworks */,
+				02604ADD2A4C24FD0028AD4C /* Resources */,
+				48A3504DAB8712F1D2DBB5DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Refurbs;
+			packageProductDependencies = (
+			);
+			productName = Refurbs;
+			productReference = 02604ADF2A4C24FD0028AD4C /* Refurbs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02604AD72A4C24FD0028AD4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					02604ADE2A4C24FD0028AD4C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 02604ADA2A4C24FD0028AD4C /* Build configuration list for PBXProject "Refurbs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02604AD62A4C24FD0028AD4C;
+			packageReferences = (
+				02B7B9EB2A72F9FF004B22FA /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = 02604AE02A4C24FD0028AD4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02604ADE2A4C24FD0028AD4C /* Refurbs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02604ADD2A4C24FD0028AD4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022DA1AC2A72970A00617CF3 /* Images.xcassets in Resources */,
+				02C57B3F2A6D4C3200D2C57E /* sunrise.jpeg in Resources */,
+				022DA1A32A7293DC00617CF3 /* shopping.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48A3504DAB8712F1D2DBB5DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Refurbs/Pods-Refurbs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Refurbs/Pods-Refurbs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Refurbs/Pods-Refurbs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A5716BC0D79921824637010 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Refurbs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02604ADB2A4C24FD0028AD4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02604AE52A4C24FD0028AD4C /* ContentView.swift in Sources */,
+				02C57B352A6C618300D2C57E /* MainView.swift in Sources */,
+				02C57B2B2A6C2F6100D2C57E /* RefurbProducts.swift in Sources */,
+				02604AE32A4C24FD0028AD4C /* RefurbsApp.swift in Sources */,
+				02C57B2F2A6C379900D2C57E /* FilterView.swift in Sources */,
+				02C57B372A6D1BB100D2C57E /* ProductDetailSpecs.swift in Sources */,
+				022DA19B2A72557B00617CF3 /* Item.swift in Sources */,
+				02C57B332A6C5D6E00D2C57E /* ProductRow.swift in Sources */,
+				022DA1952A7246EF00617CF3 /* AddNotifyView.swift in Sources */,
+				02604AF12A4C25280028AD4C /* RefurbFetcher.swift in Sources */,
+				022DA1A12A72921800617CF3 /* WelcomeView.swift in Sources */,
+				022DA1972A724A7300617CF3 /* NotifyListView.swift in Sources */,
+				022DA19F2A7260CD00617CF3 /* NotifyDetailView.swift in Sources */,
+				022DA19D2A72563700617CF3 /* ItemStore.swift in Sources */,
+				02C57B312A6C5A2E00D2C57E /* ProductDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02604AEB2A4C24FE0028AD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02604AEC2A4C24FE0028AD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02604AEE2A4C24FE0028AD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598E5D93CC87E470A8494E76 /* Pods-Refurbs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Refurbs/Preview Content\"";
+				DEVELOPMENT_TEAM = NZ9M7D4WGG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sjors.Refurbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02604AEF2A4C24FE0028AD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8084393DB3F20435997D5B2E /* Pods-Refurbs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Refurbs/Preview Content\"";
+				DEVELOPMENT_TEAM = NZ9M7D4WGG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sjors.Refurbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02604ADA2A4C24FD0028AD4C /* Build configuration list for PBXProject "Refurbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02604AEB2A4C24FE0028AD4C /* Debug */,
+				02604AEC2A4C24FE0028AD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02604AED2A4C24FE0028AD4C /* Build configuration list for PBXNativeTarget "Refurbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02604AEE2A4C24FE0028AD4C /* Debug */,
+				02604AEF2A4C24FE0028AD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02B7B9EB2A72F9FF004B22FA /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 02604AD72A4C24FD0028AD4C /* Project object */;
+}

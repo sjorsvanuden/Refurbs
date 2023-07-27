@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Refurbs.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:"
+      name = "">
+      <Group
+         location = "group:Refurbs"
+         name = "Refurbs">
+         <FileRef
+            location = "group:sunrise.jpeg">
+         </FileRef>
+         <FileRef
+            location = "group:ProductFilter.swift">
+         </FileRef>
+         <Group
+            location = "group:Networking"
+            name = "Networking">
+            <FileRef
+               location = "group:RefurbFetcher.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Preview Content"
+            name = "Preview Content">
+            <Group
+               location = "group:Preview Assets.xcassets"
+               name = "Preview Assets.xcassets">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Model"
+            name = "Model">
+            <FileRef
+               location = "group:RefurbProducts.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:View"
+            name = "View">
+            <FileRef
+               location = "group:FilterView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ProductRow.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ProductDetailView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MainView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ContentView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ProductDetailSpecs.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:RefurbsApp.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Pods"
+         name = "Pods">
+         <FileRef
+            location = "group:Pods.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:SwiftSoup"
+            name = "SwiftSoup">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:Sources"
+               name = "Sources">
+               <FileRef
+                  location = "group:HtmlTreeBuilderState.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:NodeTraversor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Connection.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Entities.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SerializationException.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FormElement.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Evaluator.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:UnfairLock.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:BooleanAttribute.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Comment.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ParseError.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Collector.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Attributes.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:TextNode.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Validate.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CombiningEvaluator.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Tokeniser.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:TokeniserState.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Element.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:StreamReader.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftSoup.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:TokenQueue.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CssSelector.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Exception.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SimpleDictionary.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Mutex.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ArrayExt.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Whitelist.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:XmlDeclaration.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:StringBuilder.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DataUtil.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:StructuralEvaluator.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:OrderedSet.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Elements.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Document.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CharacterReader.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:String.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HtmlTreeBuilder.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CharacterExt.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:TreeBuilder.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:BinarySearch.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:UnicodeScalar.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Cleaner.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Parser.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DocumentType.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:QueryParser.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ParseErrorList.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HttpStatusException.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Tag.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Token.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Pattern.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ParseSettings.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:StringUtil.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Node.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Attribute.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:XmlTreeBuilder.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:NodeVisitor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DataNode.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Target Support Files"
+            name = "Target Support Files">
+            <Group
+               location = "group:SwiftSoup"
+               name = "SwiftSoup">
+               <FileRef
+                  location = "group:SwiftSoup.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftSoup-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftSoup-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftSoup.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftSoup-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftSoup-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftSoup.release.xcconfig">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Pods-Refurbs"
+               name = "Pods-Refurbs">
+               <FileRef
+                  location = "group:Pods-Refurbs-frameworks-Debug-input-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs-frameworks-Release-input-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs-frameworks.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs-acknowledgements.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs-frameworks-Release-output-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs-acknowledgements.markdown">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Refurbs-frameworks-Debug-output-files.xcfilelist">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Manifest.lock">
+         </FileRef>
+         <Group
+            location = "group:Local Podspecs"
+            name = "Local Podspecs">
+         </Group>
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Refurbs.xcworkspace">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile">
+      </FileRef>
+      <FileRef
+         location = "group:TestDownload.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Refurbs.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile.lock">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
