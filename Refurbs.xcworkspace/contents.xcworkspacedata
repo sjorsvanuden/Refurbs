@@ -11,50 +11,8 @@
          location = "group:Refurbs"
          name = "Refurbs">
          <FileRef
-            location = "group:sunrise.jpeg">
+            location = "group:ViewModels">
          </FileRef>
-         <FileRef
-            location = "group:ProductFilter.swift">
-         </FileRef>
-         <Group
-            location = "group:Networking"
-            name = "Networking">
-            <FileRef
-               location = "group:RefurbFetcher.swift">
-            </FileRef>
-         </Group>
-         <Group
-            location = "group:Assets.xcassets"
-            name = "Assets.xcassets">
-            <Group
-               location = "group:AppIcon.appiconset"
-               name = "AppIcon.appiconset">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-            <Group
-               location = "group:AccentColor.colorset"
-               name = "AccentColor.colorset">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-            <FileRef
-               location = "group:Contents.json">
-            </FileRef>
-         </Group>
-         <Group
-            location = "group:Preview Content"
-            name = "Preview Content">
-            <Group
-               location = "group:Preview Assets.xcassets"
-               name = "Preview Assets.xcassets">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-         </Group>
          <Group
             location = "group:Model"
             name = "Model">
@@ -357,23 +315,12 @@
          <FileRef
             location = "group:Manifest.lock">
          </FileRef>
-         <Group
-            location = "group:Local Podspecs"
-            name = "Local Podspecs">
-         </Group>
-         <Group
-            location = "group:Headers"
-            name = "Headers">
-         </Group>
       </Group>
       <FileRef
          location = "group:Refurbs.xcworkspace">
       </FileRef>
       <FileRef
          location = "group:Podfile">
-      </FileRef>
-      <FileRef
-         location = "group:TestDownload.playground">
       </FileRef>
       <FileRef
          location = "group:Refurbs.xcodeproj">

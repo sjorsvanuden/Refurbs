@@ -8,10 +8,10 @@
 import Foundation
 struct Item: Identifiable, Codable {
     let id = UUID()
-    let name: String
     let type: String
     let cpu: String
     let memory: String
+    let storage: String
     let color: String
     let screensize: String
 }

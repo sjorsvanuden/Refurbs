@@ -81,14 +81,10 @@ try container.encodeNil()
 
 struct Product:Identifiable{
     var id = UUID()
+    var type: String
     var title:String
     var price:String
     var memory: TsMemorySize?
     var thumbnailName:String
     var productDetailsUrl: String
-}
-struct ProductType:Identifiable{
-    var id = UUID()
-    var title:String
-    var products:[Product]
 }

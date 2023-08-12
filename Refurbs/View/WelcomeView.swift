@@ -5,7 +5,7 @@ struct WelcomeView: View {
     let countries = ["de", "nl"]
 
     var body: some View {
-        NavigationStack{
+        NavigationView{
             VStack() {
                 SwiftUI.Image(uiImage: UIImage(named: "refurb2")!)// Replace "earth_shopping_icon" with the name of your image asset
                     //.resizable()
@@ -29,16 +29,24 @@ struct WelcomeView: View {
                 }
             label: {
                 Text("Continue").frame(width: 325.0, height: 50.0).background(Color.blue.cornerRadius(10)).foregroundColor(.white)
+                    .padding()
             }
 
                     }
                     .font(.footnote)
                     .foregroundColor(.black)
-                    .navigationBarTitle("Refurbs")
+                    .font(.system(size: 16))
+                    .navigationBarTitle("")
+                                        .navigationBarHidden(true)
                 }
-                .padding()
+
 
             }
         }
+struct WelcomeView_Previews: PreviewProvider {
+    static var previews: some View {
+        WelcomeView()
+    }
+}
 
 

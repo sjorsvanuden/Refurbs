@@ -12,11 +12,7 @@ struct NotifyDetailView: View {
         
         NavigationView {
             List{
-                HStack{
-                    Text("Name:")
-                    Text(item.name).bold()
-                        .font(.system(size: 16))
-                }
+
                 HStack{
                     Text("Type:")
                     Text(item.type).bold()
@@ -43,8 +39,7 @@ struct NotifyDetailView: View {
                             .font(.system(size: 16))
                     }
             }
-            .navigationBarTitle(item.name
-            )}
+            .navigationBarTitle(item.type)}
     }
     
 }

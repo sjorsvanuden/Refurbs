@@ -19,6 +19,7 @@ struct ContentView: View
     @State private var selectedItemMemory:String = "8gb"
     @State private var selectedItemType:String = "mac"
     @Binding var selectedCountry:String
+    var tempCountry = "nl"
     @State private var isFiltering = false
     
     var body: some View {
@@ -27,25 +28,22 @@ struct ContentView: View
             // VStack  {
             //  FilterView(selectedItemCpu: $selectedItemCpu, selectedItemMemory: $selectedItemMemory,selectedItemType: $selectedItemType)
             //
-            List{
-                ForEach(refurbFetcher.productType) { producttype in
-                    Section(header: Text(producttype.title)) {
-                        ForEach(producttype.products) { product in
-                            NavigationLink {
-                                ProductDetailView(product: product)
-                            } label:
-                            {
-                                ProductRow(product: product)
-                            }
-                        }
-                        if producttype.products.isEmpty {
-                            Text("No products matching the filter")
-                        }
-                    }
+            
+            List(refurbFetcher.products) { product in
+                NavigationLink {
+                    ProductDetailView(product: product)
+                } label:
+                {
+                    ProductRow(product: product)
                 }
             }
+            
+            
+            
+            
             .navigationBarTitle("Products")
             .navigationBarItems(trailing: filterButton)
+
             .onChange(of: selectedItemMemory, perform: {  value in
                 refurbFetcher.download(cpu: selectedItemCpu, memory: value, type: selectedItemType,country: selectedCountry)})
             .onChange(of: selectedItemCpu, perform: {  value in
@@ -53,16 +51,19 @@ struct ContentView: View
             .onChange(of: selectedItemType, perform: {  value in
                 refurbFetcher.download(cpu: selectedItemCpu, memory: selectedItemMemory, type: value,country: selectedCountry)})
             .listStyle(GroupedListStyle())
-
+            
+            
             .onAppear(perform: {refurbFetcher.download(cpu: self.selectedItemCpu,memory: self.selectedItemMemory, type: self.selectedItemType, country: self.selectedCountry)})
-        }
-        .sheet(isPresented: $isFiltering) {
-            FilterView(selectedItemCpu: $selectedItemCpu, selectedItemMemory: $selectedItemMemory,selectedItemType: $selectedItemType)
+            
+            .sheet(isPresented: $isFiltering) {
+                FilterView(selectedItemCpu: $selectedItemCpu, selectedItemMemory: $selectedItemMemory,selectedItemType: $selectedItemType)
+                
+            }
         }
     }
-
+    
     private var filterButton: some View {
-
+        
         SwiftUI.Button(action: {
             isFiltering = true
         }) {
@@ -71,4 +72,14 @@ struct ContentView: View
         }
     }
 }
+
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        let refurbfetcher = RefurbFetcher()
+        ContentView(refurbFetcher: refurbfetcher, selectedCountry: .constant("de"))
+    }
+}
+
+
 

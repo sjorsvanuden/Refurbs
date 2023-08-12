@@ -11,8 +11,8 @@ class ItemStore: ObservableObject {
     let userDefaults = UserDefaults.standard
     @Published var items: [Item]
 
-    func addItem(name: String, type: String, cpu: String, memory: String, color: String, screensize: String) {
-        let newItem = Item(name: name, type: type,cpu:cpu,memory:memory,color:color,screensize:screensize)
+    func addItem(type: String, cpu: String, memory: String, storage: String, color: String, screensize: String) {
+        let newItem = Item(type: type,cpu:cpu,memory:memory,storage: storage, color:color,screensize:screensize)
         items.append(newItem)
         saveData()
 

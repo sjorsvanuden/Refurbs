@@ -10,11 +10,10 @@ import SwiftSoup
 
 class RefurbFetcher: ObservableObject   {
     
-    @Published var productType: [ProductType] = []
-    var products : [Product] = []
+    //@Published var productType: [ProductType] = []
+    @Published var products : [Product] = []
 
     func download(cpu: String, memory: String, type: String,country: String) -> Void{
-        self.productType.removeAll()
         self.products.removeAll()
         let url = URL(string: "https://www.apple.com/\(country)/shop/refurbished/\(type)")!
         downloadHTML(from: url) { htmlString in
@@ -38,13 +37,13 @@ class RefurbFetcher: ObservableObject   {
                                         let productDetailsUrl = "https://www.apple.com" + tile.productDetailsURL
                                         print(type)
                                         if type == "ipad"{
-                                            self.products.append(Product(title: title, price: price, thumbnailName: image, productDetailsUrl: productDetailsUrl))
+                                            self.products.append(Product(type: type, title: title, price: price, thumbnailName: image, productDetailsUrl: productDetailsUrl))
                                         }
                                         if tile.title.contains(cpu)  {
                                             print(tile)
                                             let memorySize = tile.filters.dimensions.tsMemorySize
                                             if memorySize?.rawValue == memory && type == "mac"{
-                                                self.products.append(Product(title: title, price: price, memory: memorySize, thumbnailName: image, productDetailsUrl: productDetailsUrl))
+                                                self.products.append(Product(type: type, title: title, price: price, memory: memorySize, thumbnailName: image, productDetailsUrl: productDetailsUrl))
                                             }
 
                                         }
@@ -54,7 +53,7 @@ class RefurbFetcher: ObservableObject   {
                                 print(error)
                             }
                            
-                            self.productType.append(ProductType(title: type, products: self.products))
+                            //self.products.append())
                             print(self.products.count)
                             
                         }

@@ -10,7 +10,7 @@ struct FilterView: View {
     @Environment(\.presentationMode) var presentationMode
     var body: some View {
         NavigationStack{
-
+            List{
                 HStack{
                     Text("Type:")
                         .padding()
@@ -23,7 +23,7 @@ struct FilterView: View {
                             Text(filter)
                         }
                     }
-                        .pickerStyle(SegmentedPickerStyle())
+                    .pickerStyle(SegmentedPickerStyle())
                 }
                 HStack{
                     Text("Cpu:").padding()
@@ -37,7 +37,7 @@ struct FilterView: View {
                             Text(filter)
                         }
                     }
-
+                    
                     .disabled(selectedItemType == "ipad")
                     .pickerStyle(SegmentedPickerStyle())
                 }
@@ -53,15 +53,21 @@ struct FilterView: View {
                     }
                     .disabled(selectedItemType == "ipad")
                     .pickerStyle(SegmentedPickerStyle())
-
+                    
                     
                 }
                 HStack{
-                    Text("Close").frame(width: 300.0, height: 50.0).background(Color.blue.cornerRadius(10)).foregroundColor(.white).onTapGesture {
+                    Text("Save").frame(width: 300.0, height: 50.0).background(Color.blue.cornerRadius(10)).foregroundColor(.white).onTapGesture {
                         presentationMode.wrappedValue.dismiss()
                     }
-                }
+                }.padding()
+            }
              .navigationBarTitle("Filter")
         }
+    }
+}
+struct FilterView_Previews: PreviewProvider {
+    static var previews: some View {
+        FilterView(selectedItemCpu: .constant("M1"), selectedItemMemory: .constant("16gb"), selectedItemType: .constant("ipad"))
     }
 }

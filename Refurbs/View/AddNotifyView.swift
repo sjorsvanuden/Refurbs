@@ -13,20 +13,20 @@ struct AddNotifyView: View {
     let cpu = ["M1", "M1 Pro","M1 Max","M2","M2 Pro","M2 Max"]
     let color = ["blue", "green","grey","silver","red"]
     let screensize = ["13inch", "14inch","15inch","16inch"]
+    let storage = ["256GB", "512GB","1TB","2TB", "4TB", "8TB"]
     //@Binding var notifyList : [String]
-    @State private var selectedProductTypeIndex = "Mac"
+    @State private var selectedProductTypeIndex = "Macbook"
     @State private var showingAlert = false
-    @State private var selectedMemoryIndex = "Memory"
+    @State private var selectedMemoryIndex = "16gb"
     @State private var selectedCpuIndex = "M1"
     @State private var selectedColorIndex = "Grey"
+    @State private var selectedStorageIndex = "512GB"
     @State private var selectedScreensizeIndex = "13inch"
     @State  var itemName = ""
     @ObservedObject var itemStore: ItemStore
     @Binding var isPresented: Bool
     var body: some View {
-        NavigationStack{
-            Spacer()
-            Spacer()
+        NavigationView{
             Form{
 
                 TextField("Notify name", text: $itemName).padding()
@@ -83,6 +83,7 @@ struct AddNotifyView: View {
                         addItem()
                     }
             }.navigationBarTitle("Add a new Notify")
+                    .navigationBarHidden(true)
 
 
             }
@@ -102,7 +103,7 @@ struct AddNotifyView: View {
         else
         {
             showingAlert = false
-            itemStore.addItem(name: itemName,type: selectedProductTypeIndex,cpu:selectedCpuIndex,memory:selectedMemoryIndex,color:selectedColorIndex,screensize: selectedScreensizeIndex )
+            itemStore.addItem(type: selectedProductTypeIndex,cpu:selectedCpuIndex,memory:selectedMemoryIndex,storage: selectedStorageIndex,color:selectedColorIndex,screensize: selectedScreensizeIndex )
             isPresented = false
         }
     }

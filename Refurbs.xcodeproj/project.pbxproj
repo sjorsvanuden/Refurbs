@@ -13,7 +13,6 @@
 		022DA19D2A72563700617CF3 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DA19C2A72563700617CF3 /* ItemStore.swift */; };
 		022DA19F2A7260CD00617CF3 /* NotifyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DA19E2A7260CD00617CF3 /* NotifyDetailView.swift */; };
 		022DA1A12A72921800617CF3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DA1A02A72921800617CF3 /* WelcomeView.swift */; };
-		022DA1A32A7293DC00617CF3 /* shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = 022DA1A22A7293DC00617CF3 /* shopping.png */; };
 		022DA1AC2A72970A00617CF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022DA1AB2A72970A00617CF3 /* Images.xcassets */; };
 		02604AE32A4C24FD0028AD4C /* RefurbsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02604AE22A4C24FD0028AD4C /* RefurbsApp.swift */; };
 		02604AE52A4C24FD0028AD4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02604AE42A4C24FD0028AD4C /* ContentView.swift */; };
@@ -24,7 +23,6 @@
 		02C57B332A6C5D6E00D2C57E /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C57B322A6C5D6E00D2C57E /* ProductRow.swift */; };
 		02C57B352A6C618300D2C57E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C57B342A6C618300D2C57E /* MainView.swift */; };
 		02C57B372A6D1BB100D2C57E /* ProductDetailSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C57B362A6D1BB100D2C57E /* ProductDetailSpecs.swift */; };
-		02C57B3F2A6D4C3200D2C57E /* sunrise.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 02C57B3E2A6D4C3200D2C57E /* sunrise.jpeg */; };
 		7B0A8BF165772358EC8E1EAE /* Pods_Refurbs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1367EE85FA0DA9FC4FA0E3 /* Pods_Refurbs.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +33,6 @@
 		022DA19C2A72563700617CF3 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		022DA19E2A7260CD00617CF3 /* NotifyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyDetailView.swift; sourceTree = "<group>"; };
 		022DA1A02A72921800617CF3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		022DA1A22A7293DC00617CF3 /* shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping.png; sourceTree = "<group>"; };
 		022DA1AB2A72970A00617CF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		02604ADF2A4C24FD0028AD4C /* Refurbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Refurbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02604AE22A4C24FD0028AD4C /* RefurbsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefurbsApp.swift; sourceTree = "<group>"; };
@@ -47,7 +44,6 @@
 		02C57B322A6C5D6E00D2C57E /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 		02C57B342A6C618300D2C57E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		02C57B362A6D1BB100D2C57E /* ProductDetailSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailSpecs.swift; sourceTree = "<group>"; };
-		02C57B3E2A6D4C3200D2C57E /* sunrise.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunrise.jpeg; sourceTree = "<group>"; };
 		3C1367EE85FA0DA9FC4FA0E3 /* Pods_Refurbs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Refurbs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		598E5D93CC87E470A8494E76 /* Pods-Refurbs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refurbs.debug.xcconfig"; path = "Target Support Files/Pods-Refurbs/Pods-Refurbs.debug.xcconfig"; sourceTree = "<group>"; };
 		8084393DB3F20435997D5B2E /* Pods-Refurbs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refurbs.release.xcconfig"; path = "Target Support Files/Pods-Refurbs/Pods-Refurbs.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,13 +61,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		022DA1AA2A7296B700617CF3 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		02604AD62A4C24FD0028AD4C = {
 			isa = PBXGroup;
 			children = (
@@ -94,13 +83,10 @@
 			isa = PBXGroup;
 			children = (
 				022DA1AB2A72970A00617CF3 /* Images.xcassets */,
-				022DA1AA2A7296B700617CF3 /* Preview Content */,
 				02C57B2D2A6C30CC00D2C57E /* View */,
 				02C57B2C2A6C30C700D2C57E /* ViewModels */,
 				0261695B2A5C4B7400AFAED3 /* Model */,
 				02604AE22A4C24FD0028AD4C /* RefurbsApp.swift */,
-				02C57B3E2A6D4C3200D2C57E /* sunrise.jpeg */,
-				022DA1A22A7293DC00617CF3 /* shopping.png */,
 			);
 			path = Refurbs;
 			sourceTree = "<group>";
@@ -223,8 +209,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				022DA1AC2A72970A00617CF3 /* Images.xcassets in Resources */,
-				02C57B3F2A6D4C3200D2C57E /* sunrise.jpeg in Resources */,
-				022DA1A32A7293DC00617CF3 /* shopping.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Refurbs/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = NZ9M7D4WGG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -451,7 +435,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Refurbs/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = NZ9M7D4WGG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

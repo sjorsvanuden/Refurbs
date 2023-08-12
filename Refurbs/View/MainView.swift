@@ -19,13 +19,21 @@ struct MainView: View {
                            Label("Products", systemImage: "list.dash")
                        }
 
-            NotifyListView(itemStore: itemStore)
+            NotifyListView(itemStore: itemStore,refurbFetcher: refurbFetcher)
                        .tabItem {
                            Label("Notify", systemImage: "bell")
                        }
-               }
+        }.navigationBarBackButtonHidden(true)
             
 
         }
     }
+struct MainView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainView(selectedCountry: .constant("nl"))
+    }
+}
+
+
+
 
