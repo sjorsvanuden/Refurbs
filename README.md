@@ -4,4 +4,4 @@ App written in Swift that shows refurbished products from Apple.
 Notify in progress.
 
 
-![Screenshot 2023-07-27 at 22 20 06](https://github.com/sjorsvanuden/Refurbs/blob/main/Screenshot%202023-07-27%20at%2022.20.06.png)
+![](https://imgur.com/a/MXxyjO2)
