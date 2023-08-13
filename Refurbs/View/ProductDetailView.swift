@@ -27,7 +27,6 @@ struct ProductDetailView: View {
                 }
                 
             placeholder: {
-                //ProgressView()
             }
                 
                 

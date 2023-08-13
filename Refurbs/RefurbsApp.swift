@@ -10,10 +10,7 @@ import SwiftUI
 @main
 
 struct RefurbsApp: App {
-    //var selectedCountry:String = "de"
     var body: some Scene {
-
-
         WindowGroup {
             WelcomeView()
         }

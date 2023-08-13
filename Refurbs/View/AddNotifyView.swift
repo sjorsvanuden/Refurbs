@@ -33,13 +33,12 @@ struct AddNotifyView: View {
 
                 Picker("Type", selection: $selectedProductTypeIndex)
                 {
-                    
                     ForEach(productTypes, id: \.self)
                     {
                         Text($0)
                     }
                 }.padding()
-                .pickerStyle(.navigationLink)
+                    .pickerStyle(.navigationLink)
                 Picker("Cpu", selection: $selectedCpuIndex)
                 {
                     
@@ -48,7 +47,7 @@ struct AddNotifyView: View {
                         Text($0)
                     }
                 }.padding()
-                .pickerStyle(.navigationLink)
+                    .pickerStyle(.navigationLink)
                 Picker("Memory", selection: $selectedMemoryIndex)
                 {
                     
@@ -57,7 +56,7 @@ struct AddNotifyView: View {
                         Text($0)
                     }
                 }.padding()
-                .pickerStyle(.navigationLink)
+                    .pickerStyle(.navigationLink)
                 
                 Picker("Color", selection: $selectedColorIndex)
                 {
@@ -67,7 +66,7 @@ struct AddNotifyView: View {
                         Text($0)
                     }
                 }.padding()
-                .pickerStyle(.navigationLink)
+                    .pickerStyle(.navigationLink)
                 Picker("Screen Size", selection: $selectedScreensizeIndex)
                 {
                     
@@ -82,10 +81,8 @@ struct AddNotifyView: View {
                     Text("Add").frame(width: 300.0, height: 50.0).background(Color.blue.cornerRadius(10)).foregroundColor(.white).onTapGesture {
                         addItem()
                     }
-            }.navigationBarTitle("Add a new Notify")
+                }.navigationBarTitle("Add a new Notify")
                     .navigationBarHidden(true)
-
-
             }
 
         }

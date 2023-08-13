@@ -9,8 +9,6 @@ import SwiftSoup
 
 
 class RefurbFetcher: ObservableObject   {
-    
-    //@Published var productType: [ProductType] = []
     @Published var products : [Product] = []
 
     func download(cpu: String, memory: String, type: String,country: String) -> Void{
@@ -22,13 +20,9 @@ class RefurbFetcher: ObservableObject   {
                     if var json = javascriptCode as? String {
                         json = json.replacingOccurrences(of: "window.REFURB_GRID_BOOTSTRAP =", with: "")
                         json = json.replacingOccurrences(of: "};", with: "}")
-                        //DEBUG
-                       // print(json)
                         if let data = json.data(using: .utf8) {
                             do {
                                 let welcome = try JSONDecoder().decode(RefurbProducts.self, from: data)
-                                    // print("decoded")
-                                    //  print(json)
                                     for tile in welcome.tiles{
                                         let title = tile.title
                                         let price = tile.price.currentPrice.amount
@@ -52,8 +46,6 @@ class RefurbFetcher: ObservableObject   {
                             catch{
                                 print(error)
                             }
-                           
-                            //self.products.append())
                             print(self.products.count)
                             
                         }

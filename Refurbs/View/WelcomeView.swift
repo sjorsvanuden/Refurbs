@@ -7,8 +7,7 @@ struct WelcomeView: View {
     var body: some View {
         NavigationView{
             VStack() {
-                SwiftUI.Image(uiImage: UIImage(named: "refurb2")!)// Replace "earth_shopping_icon" with the name of your image asset
-                    //.resizable()
+                SwiftUI.Image(uiImage: UIImage(named: "refurb2")!)
                     .frame(width: 325, height: 325)
                     .clipShape(Circle())
                     .padding()
@@ -31,7 +30,6 @@ struct WelcomeView: View {
                 Text("Continue").frame(width: 325.0, height: 50.0).background(Color.blue.cornerRadius(10)).foregroundColor(.white)
                     .padding()
             }
-
                     }
                     .font(.footnote)
                     .foregroundColor(.black)
@@ -39,8 +37,6 @@ struct WelcomeView: View {
                     .navigationBarTitle("")
                                         .navigationBarHidden(true)
                 }
-
-
             }
         }
 struct WelcomeView_Previews: PreviewProvider {

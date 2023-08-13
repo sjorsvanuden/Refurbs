@@ -15,8 +15,6 @@ class ItemStore: ObservableObject {
         let newItem = Item(type: type,cpu:cpu,memory:memory,storage: storage, color:color,screensize:screensize)
         items.append(newItem)
         saveData()
-
-
     }
     init() {
         items = []

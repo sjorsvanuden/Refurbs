@@ -14,7 +14,6 @@ struct ProductRow: View {
             AsyncImage(url: URL(string: product.thumbnailName)) { image in
                 image
                     .resizable()
-                    //.scaledToFit()
                     
                     .frame(width: 100, height: 100, alignment: .trailing)
                 VStack (alignment: .leading, spacing: 10) {
@@ -25,7 +24,6 @@ struct ProductRow: View {
                         .font(.system(size: 12))
                 }
             } placeholder: {
-                //ProgressView()
             }
                 Spacer()
             }

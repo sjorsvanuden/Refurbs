@@ -25,10 +25,6 @@ struct ContentView: View
     var body: some View {
         NavigationView
         {
-            // VStack  {
-            //  FilterView(selectedItemCpu: $selectedItemCpu, selectedItemMemory: $selectedItemMemory,selectedItemType: $selectedItemType)
-            //
-            
             List(refurbFetcher.products) { product in
                 NavigationLink {
                     ProductDetailView(product: product)
@@ -37,10 +33,6 @@ struct ContentView: View
                     ProductRow(product: product)
                 }
             }
-            
-            
-            
-            
             .navigationBarTitle("Products")
             .navigationBarItems(trailing: filterButton)
 
@@ -51,13 +43,10 @@ struct ContentView: View
             .onChange(of: selectedItemType, perform: {  value in
                 refurbFetcher.download(cpu: selectedItemCpu, memory: selectedItemMemory, type: value,country: selectedCountry)})
             .listStyle(GroupedListStyle())
-            
-            
             .onAppear(perform: {refurbFetcher.download(cpu: self.selectedItemCpu,memory: self.selectedItemMemory, type: self.selectedItemType, country: self.selectedCountry)})
             
             .sheet(isPresented: $isFiltering) {
                 FilterView(selectedItemCpu: $selectedItemCpu, selectedItemMemory: $selectedItemMemory,selectedItemType: $selectedItemType)
-                
             }
         }
     }
@@ -80,6 +69,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView(refurbFetcher: refurbfetcher, selectedCountry: .constant("de"))
     }
 }
-
-
 
